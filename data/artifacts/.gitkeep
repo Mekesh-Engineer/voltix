@@ -1,0 +1,3 @@
+# Ignore all artifacts generated at runtime
+*
+!.gitkeep

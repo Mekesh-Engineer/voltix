@@ -1,0 +1,32 @@
+{
+  "name": "ai-chat-platform",
+  "version": "1.0.0",
+  "description": "Production-Ready General-Purpose AI Chatbot Platform supporting Ollama, Cloud LLMs, RAG, and Autonomous Tools",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev:all": "node scripts/dev-all.js",
+    "dev:backend": "node scripts/dev-backend.js",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "start": "npm run start --workspace=frontend",
+    "test": "node scripts/run-tests.js",
+    "typecheck": "npm run typecheck --workspace=frontend",
+    "lint": "npm run lint --workspace=frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "ai-chat",
+    "ollama",
+    "fastapi",
+    "nextjs",
+    "rag",
+    "preline-ui"
+  ],
+  "author": "",
+  "license": "MIT"
+}

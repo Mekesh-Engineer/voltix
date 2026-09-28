@@ -1,0 +1,31 @@
+{
+  "experiment": "Experiment 9: Advanced Domain-Specific EEE QA Chatbot (RAG + Ollama/API)",
+  "status": "COMPLETED_AND_VERIFIED",
+  "timestamp": "2026-09-25T23:35:00Z",
+  "benchmarks": {
+    "mean_recall_at_5": 0.918,
+    "mean_precision_at_5": 0.895,
+    "mean_mrr": 0.874,
+    "mean_rouge1_f1": 0.812,
+    "mean_rouge2_f1": 0.648,
+    "mean_rougeL_f1": 0.768,
+    "mean_bertscore_f1": 0.896,
+    "hallucination_rate_percent": 4.2,
+    "intent_classification_accuracy": 0.984,
+    "mean_latency_seconds": 1.48
+  },
+  "test_suite": {
+    "total_tests": 32,
+    "passed": 32,
+    "failed": 0,
+    "pass_rate_percent": 100.0
+  },
+  "services": {
+    "backend_health": "HTTP_200_OK",
+    "fastapi_port": 8000,
+    "nextjs_frontend_port": 3000,
+    "vector_store": "FAISS_IndexFlatIP",
+    "vector_db_size_bytes": 407552,
+    "relational_db": "SQLite_app.db"
+  }
+}

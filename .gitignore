@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.venv/
+backend/.venv/
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js Build Outputs
+frontend/.next/
+frontend/out/
+
+# Python & Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Application Data & Databases
+data/app.db
+data/app.db-journal
+data/uploads/*
+!data/uploads/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/vector_db/*
+!data/vector_db/.gitkeep
+data/artifacts/*
+!data/artifacts/.gitkeep
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

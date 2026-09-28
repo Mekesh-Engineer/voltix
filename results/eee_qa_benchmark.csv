@@ -1,0 +1,9 @@
+id,category,query,recall_at_5,mrr,rouge1_f1,rougeL_f1,bertscore,latency_s
+EEE_QA_001,Electrical Machines,Working principle of induction motor and slip equation,1.0,1.0,0.842,0.795,0.912,1.62
+EEE_QA_002,Electrical Machines,Switched reluctance motor torque production mechanism,1.0,1.0,0.815,0.772,0.898,1.74
+EEE_QA_003,Power Systems,Newton-Raphson load flow bus types and Jacobian derivation,1.0,1.0,0.792,0.751,0.884,1.88
+EEE_QA_004,Power Electronics,DC-DC buck converter continuous conduction mode duty cycle,1.0,0.5,0.835,0.789,0.905,1.55
+EEE_QA_005,Control Systems,Closed-loop PID controller tuning and step response in MATLAB,1.0,1.0,0.78,0.735,0.882,1.45
+EEE_QA_006,EV & Storage,Battery management system state-of-charge Kalman filter estimation,1.0,1.0,0.81,0.765,0.895,1.92
+EEE_QA_007,Renewables,Solar PV perturb and observe MPPT tracking algorithm implementation,1.0,0.5,0.79,0.742,0.886,1.81
+EEE_QA_008,Numerical Math,Calculate slip of 4-pole 50Hz motor running at 1440 RPM,1.0,1.0,0.882,0.834,0.925,0.18

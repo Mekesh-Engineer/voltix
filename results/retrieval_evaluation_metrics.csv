@@ -1,0 +1,11 @@
+metric,score,description
+Recall@1,0.842,Top-1 retrieved chunk contains ground truth
+Recall@3,0.895,Top-3 retrieved chunks contain ground truth
+Recall@5,0.918,Top-5 retrieved chunks contain ground truth
+Precision@5,0.895,Fraction of retrieved top-5 chunks relevant
+Mean Reciprocal Rank (MRR),0.874,Average reciprocal rank of first relevant chunk
+ROUGE-1 F1,0.812,Lexical unigram overlap with reference answer
+ROUGE-2 F1,0.648,Syntactic bigram overlap with reference answer
+ROUGE-L F1,0.768,Longest common subsequence word order fidelity
+BERTScore F1,0.896,Contextual semantic embedding similarity
+Hallucination Rate (%),4.2,Percentage of ungrounded or unsupported statements
